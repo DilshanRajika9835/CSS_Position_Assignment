@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment| Positions Example ONE</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <style>
+        body>section{
+            height: 50vh;
+            width: 50vw;
+            position: absolute;
+        }
+        body>section:nth-child(1){
+            background-color: red;
+            left: 0;
+
+        }
+        body>section:nth-child(2){
+            background-color: green;
+            right: 0;
+
+        }
+        body>section:nth-child(3){
+            background-color: #ef8506;
+                left: 0;
+            bottom: 0;
+        }
+        body>section:nth-child(4){
+        background-color: deeppink;
+            right: 0;
+            bottom: 0;
+        }
+        body>aside{
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+
+        }
+        body>aside:nth-child(5){
+            left: 0;
+            top:0;
+            border-bottom-right-radius: 100%;
+        }
+        body>aside:nth-child(6){
+            right: 0;
+            top: 0;
+            border-bottom-left-radius:100% ;
+        }
+        body>aside:nth-child(7){
+            left: 0;
+            bottom: 0;
+            border-top-right-radius:100% ;
+        }
+        body>aside:nth-child(8){
+            right: 0;
+            bottom: 0;
+            border-top-left-radius: 100%;
+        }
+        body>article{
+            background-color: white;
+            width: 115px;
+            height: 53px;
+            position: absolute;
+        }
+        body>article{
+            left: 0;
+            right: 0;
+            margin: auto;
+            position: absolute;
+        }
+        body>article:nth-child(9){
+            top: 0;
+            border-bottom-right-radius: 50% 100%;
+            border-bottom-left-radius:50%  100%;
+
+        }
+        body>article:nth-child(10){
+            border-top-right-radius: 50% 100%;
+            border-top-left-radius:50%  100%;
+            bottom: 0;
+        }
+        body>div{
+            width: 120px;
+            height: 120px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-color: #f6f2f2;
+        }
+        body>div>div{
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            border-radius: 100%;
+            background-color: #fa0909;
+        }
+    </style>
+</head>
+<body>
+<section></section>
+<section></section>
+<section></section>
+<section></section>
+<aside></aside>
+<aside></aside>
+<aside></aside>
+<aside></aside>
+<article></article>
+<article></article>
+<div>
+    <div></div>
+</div>
+</body>
+</html>
